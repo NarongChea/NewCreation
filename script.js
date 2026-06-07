@@ -323,7 +323,7 @@ function buildWorkerPrintDoc() {
 
   return `<div id="worker-print-doc" style="background:#fff;width:794px;padding:40px 36px 60px;font-family:'DM Sans',sans-serif;font-size:12px;color:#1C1C1E;">
     <div style="text-align:center;margin-bottom:18px;">
-      <span style="font-family:'Noto Sans Khmer',sans-serif;font-size:14px;font-weight:700;color:#1C1C1E;border-bottom:1.5px solid #1C1C1E;padding-bottom:2px;">តារាងវ</span>
+      <span style="font-family:'Noto Sans Khmer',sans-serif;font-size:14px;font-weight:700;color:#1C1C1E;border-bottom:1.5px solid #1C1C1E;padding-bottom:2px;">${workers[0].name}</span>
     </div>
     <table style="width:100%;border-collapse:collapse;border:1.5px solid #2c3e6b;">
       <thead><tr>
